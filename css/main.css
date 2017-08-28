@@ -5,6 +5,40 @@ header
 /******************************************************** 
 navigation
 ********************************************************/
+nav
+{
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+    font-size: 1.50em;
+    text-align: center;
+    background-color: #eea2a4;
+    overflow: hidden;
+    margin: 0 0 5px 0;
+}
+
+nav ul
+{
+    list-style: none;
+    margin: 0; 
+    padding: 10px 0;
+}
+
+nav li
+{
+    display: inline-block;
+}
+
+nav a:hover
+{
+    color: white;
+    text-decoration: none;
+}
+
+nav a, nav a:visited
+{
+    color: white;
+    padding: 15px 20px;
+}
 
 /******************************************************** 
 footer
