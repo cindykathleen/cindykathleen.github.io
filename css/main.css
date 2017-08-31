@@ -51,6 +51,37 @@ home page
 /******************************************************** 
 about page
 ********************************************************/
+#aboutSectionWrapper
+{
+    background-color: #F9F9F9;
+    font-family: 'Oxygen';
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+#aboutWrapper
+{
+    margin: 15px;
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+
+.profilePhoto
+{
+    float: left;
+    display: block;
+    max-width: 300px;
+    margin: 15px 15px 0 15px;
+    border-radius: 4%; /*gives the picture rounded corners*/
+}
+
+h1
+{
+    font-size: 1.75em;
+    font-weight: normal;
+    margin-top: 15px;
+    font-family: 'Oswald';
+}
 
 /******************************************************** 
 projects page
