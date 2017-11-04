@@ -11,8 +11,7 @@ nav
     font-weight: normal;
     font-size: 1em;
     text-align: center;
-    overflow: hidden;
-    margin: 0 0 5px 0;
+    margin: 0;
 }
 
 nav ul
@@ -39,6 +38,43 @@ nav a
     color: black;
 }
 
+.dropbtn
+{
+    display: inline-block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+
+li.dropdown 
+{
+    display: inline-block;
+}
+
+.dropdown-content 
+{
+    display: none;
+    position: absolute;
+    min-width: 78px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    background-color: white;
+}
+
+.dropdown-content a 
+{
+    color: black;
+    padding: 5px 8px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.dropdown:hover .dropdown-content 
+{
+    display: block;
+}
+
 /******************************************************** 
 footer
 ********************************************************/
@@ -50,13 +86,14 @@ home page
 {
     /*background-color: #F9F9F9;*/
     font-family: 'Open Sans', sans-serif;
-    margin-right: 15px;
-    margin-left: 15px;
+    margin: 0 15px;
+    overflow: hidden;
 }
 
 #homeWrapper
 {
     padding-bottom: 25px;
+    overflow: hidden;
 }
 
 .profilePhoto
@@ -64,7 +101,7 @@ home page
     float: left;
     display: block;
     max-width: 250px;
-    margin: 0px 15px 0 15px;
+    margin: 0 15px 0 15px;
     border-radius: 4%; /*gives the picture rounded corners*/
 }
 
@@ -103,6 +140,35 @@ img
 }
 
 /******************************************************** 
+travel page
+********************************************************/
+#quote
+{
+    max-width: 50%;
+    text-align: center;
+    margin: 0 auto 10px auto;
+}
+
+h1
+{
+    font-size: 2em;
+    font-family: 'Cookie', cursive;
+}
+
+h2
+{
+    font-size: 1em;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: -5px;
+}
+
+h3
+{
+    font-size: 2em;
+    font-family: 'Cookie', cursive;
+}
+
+/******************************************************** 
 resume page
 ********************************************************/
 
@@ -124,26 +190,6 @@ contact page
     margin-left: auto;
     margin-right: auto;
     padding-top: 10px;
-}
-
-h2
-{
-    font-size: 1.75em;
-    font-weight: normal;
-    padding-bottom: 5px;
-}
-
-h3
-{
-    font-size: 1.25em;
-    font-weight: normal;
-}
-
-h4
-{
-    font-size: 1.25em;
-    font-weight: normal;
-    display: block;
 }
 
 /******************************************************** 
