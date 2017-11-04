@@ -7,11 +7,10 @@ navigation
 ********************************************************/
 nav
 {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: normal;
-    font-size: 1.50em;
+    font-size: 1em;
     text-align: center;
-    background-color: #eea2a4;
     overflow: hidden;
     margin: 0 0 5px 0;
 }
@@ -26,18 +25,18 @@ nav ul
 nav li
 {
     display: inline-block;
+    padding: 15px 20px;
 }
 
 nav a:hover
 {
-    color: white;
+    color: #eea2a4;
     text-decoration: none;
 }
 
-nav a, nav a:visited
+nav a
 {
-    color: white;
-    padding: 15px 20px;
+    color: black;
 }
 
 /******************************************************** 
@@ -47,22 +46,16 @@ footer
 /******************************************************** 
 home page
 ********************************************************/
-
-/******************************************************** 
-about page
-********************************************************/
-#aboutSectionWrapper
+#homeSectionWrapper
 {
-    background-color: #F9F9F9;
-    font-family: 'Oxygen';
+    /*background-color: #F9F9F9;*/
+    font-family: 'Open Sans', sans-serif;
     margin-right: 15px;
     margin-left: 15px;
 }
 
-#aboutWrapper
+#homeWrapper
 {
-    margin: 15px;
-    padding-top: 15px;
     padding-bottom: 25px;
 }
 
@@ -70,22 +63,44 @@ about page
 {
     float: left;
     display: block;
-    max-width: 300px;
-    margin: 15px 15px 0 15px;
+    max-width: 250px;
+    margin: 0px 15px 0 15px;
     border-radius: 4%; /*gives the picture rounded corners*/
-}
-
-h1
-{
-    font-size: 1.75em;
-    font-weight: normal;
-    margin-top: 15px;
-    font-family: 'Oswald';
 }
 
 /******************************************************** 
 projects page
 ********************************************************/
+
+/******************************************************** 
+passions page
+********************************************************/
+#passionsWrapper
+{
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 1%;
+}
+
+img
+{
+    max-width: 100%;
+}
+
+#gallery
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#gallery li
+{
+    float: left;
+    width: 24%;
+    margin: .5%;
+    
+}
 
 /******************************************************** 
 resume page
@@ -94,6 +109,42 @@ resume page
 /******************************************************** 
 contact page
 ********************************************************/
+#contactSectionWrapper
+{
+    /*background-color: #F9F9F9;*/
+    font-family: 'Oxygen';
+    margin: 15px;
+    text-align: center;
+}
+
+#contactInnerSectionWrapper
+{
+    background-image: url('../Pictures/ContactBackground.jpg');
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+}
+
+h2
+{
+    font-size: 1.75em;
+    font-weight: normal;
+    padding-bottom: 5px;
+}
+
+h3
+{
+    font-size: 1.25em;
+    font-weight: normal;
+}
+
+h4
+{
+    font-size: 1.25em;
+    font-weight: normal;
+    display: block;
+}
 
 /******************************************************** 
 relevant colors: #84a869 (green) & #eea2a4 (pink)
