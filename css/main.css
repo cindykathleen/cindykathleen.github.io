@@ -168,6 +168,16 @@ h3
     font-family: 'Cookie', cursive;
 }
 
+#paragraph
+{
+    font-size: 1em;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    max-width: 50%;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
 /******************************************************** 
 resume page
 ********************************************************/
@@ -177,19 +187,7 @@ contact page
 ********************************************************/
 #contactSectionWrapper
 {
-    /*background-color: #F9F9F9;*/
-    font-family: 'Oxygen';
-    margin: 15px;
     text-align: center;
-}
-
-#contactInnerSectionWrapper
-{
-    background-image: url('../Pictures/ContactBackground.jpg');
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 10px;
 }
 
 /******************************************************** 
