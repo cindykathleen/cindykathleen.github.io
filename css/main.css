@@ -181,6 +181,33 @@ h3
 /******************************************************** 
 resume page
 ********************************************************/
+#resumepicture
+{
+    max-width: 60%;
+    margin: -20px auto 0 auto;
+}
+
+#resumesection
+{
+    text-align: center;
+    max-width: 100%;
+    margin: -25px auto 0 auto;
+    padding: 0;
+}
+
+#resumesection a, #resumesection a:visited
+{
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    font-size: 1em;
+    padding-bottom: 10px;
+}
+
+#resumesection a:hover
+{
+    color: #eea2a4;
+    text-decoration: none;
+}
 
 /******************************************************** 
 contact page
