@@ -178,6 +178,35 @@ h3
     padding-top: 10px;
 }
 
+#foodGallery
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#foodGallery li
+{
+    float: left;
+    width: 48%;
+    margin: 1%;
+    
+}
+
+#paragraph a, #paragraph a:visited
+{
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    font-size: 1em;
+    padding-bottom: 10px;
+}
+
+#paragraph a:hover
+{
+    color: #eea2a4;
+    text-decoration: none;
+}
+
 /******************************************************** 
 resume page
 ********************************************************/
@@ -230,7 +259,7 @@ h5
 {
     font-size: 1.3em;
     font-family: 'Open Sans', sans-serif;
-    padding-bottom: 5px;
+    padding-top: 10px;
 }
 
 h6
