@@ -178,19 +178,33 @@ h3
     padding-top: 10px;
 }
 
-#foodGallery
+#twoGallery
 {
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
-#foodGallery li
+#twoGallery li
 {
     float: left;
     width: 48%;
     margin: 1%;
     
+}
+
+#fourGallery
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#fourGallery li
+{
+    float: left;
+    width: 24%;
+    margin: .5%;
 }
 
 #paragraph a, #paragraph a:visited
