@@ -108,6 +108,12 @@ home page
 /******************************************************** 
 projects page
 ********************************************************/
+#projectSectionWrapper
+{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+}
 
 /******************************************************** 
 passions page
