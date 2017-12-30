@@ -92,17 +92,21 @@ home page
 
 #homeWrapper
 {
-    padding-bottom: 25px;
+    padding 0 10px 25px 10px;
     overflow: hidden;
+    text-align: center;
+}
+
+#homeParagraph
+{
+    margin: 0px 350px 0 350px;
 }
 
 .profilePhoto
 {
-    float: left;
-    display: block;
     max-width: 250px;
-    margin: 0 15px 0 15px;
-    border-radius: 4%; /*gives the picture rounded corners*/
+    margin: 0px auto 15px auto;
+    border-radius: 100%; /*gives the picture rounded corners*/
 }
 
 /******************************************************** 
