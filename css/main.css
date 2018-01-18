@@ -238,8 +238,24 @@ soul cycle page
 .soulCyclePhoto
 {
     max-height: 150px;
-    margin: 5px auto 15px auto;
+    margin: 5px auto 5px auto;
     border-radius: 100%; /*gives the picture rounded corners*/
+}
+
+#soulParagraph
+{
+    font-size: 1em;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+h8
+{
+    font-size: 1.25em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
 }
 
 /******************************************************** 
