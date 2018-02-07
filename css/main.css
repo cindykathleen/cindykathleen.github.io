@@ -251,11 +251,52 @@ soul cycle page
     margin: 0 auto;
 }
 
+#soulParagraph a, a:hover
+{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#soulParagraph a:hover
+{
+    color: #fdee31;
+}
+
+.card
+{
+    border-style: none;
+    padding: 0;
+}
+
+.card-body
+{
+    padding: 5px;
+}
+
+.card-header
+{
+    background-color: white;
+    border-style: none;
+    padding: 0;
+}
+
+.card-header:a:hover
+{
+    color: black;
+    text-decoration: none;
+}
+
 h8
 {
     font-size: 1.25em;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
+}
+
+h9
+{
+    font-family: 'Open Sans', sans-serif;
 }
 
 /******************************************************** 
