@@ -279,9 +279,11 @@ soul cycle page
     background-color: white;
     border-style: none;
     padding: 0;
+    margin-top: -4px;
+    margin-bottom: -6px;
 }
 
-.card-header:a:hover
+.card-link
 {
     color: black;
     text-decoration: none;
