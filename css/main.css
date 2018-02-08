@@ -233,6 +233,7 @@ h3
 
 /******************************************************** 
 soul cycle page
+color: #fdee31 && #fde331
 ********************************************************/
 
 .soulCyclePhoto
@@ -251,41 +252,36 @@ soul cycle page
     margin: 0 auto;
 }
 
-#soulParagraph a, a:hover
+.btn-primary 
+{
+    margin-top: 6px;
+    color: black;
+    background-color: #fdee31;
+    border-color: #fdee31;
+}
+
+.btn-primary:hover 
+{
+    color: black;
+    background-color: #fde331;
+    border-color: #fde331;
+}
+
+.collapse
+{
+    margin-bottom: 15px;
+}
+
+#collapse1 a
 {
     color: black;
     font-weight: bold;
-    text-decoration: none;
 }
 
-#soulParagraph a:hover
+#collapse1 a:hover
 {
     color: #fdee31;
-}
-
-.card
-{
-    border-style: none;
-    padding: 0;
-}
-
-.card-body
-{
-    padding: 5px;
-}
-
-.card-header
-{
-    background-color: white;
-    border-style: none;
-    padding: 0;
-    margin-top: -4px;
-    margin-bottom: -6px;
-}
-
-.card-link
-{
-    color: black;
+    font-weight: bold;
     text-decoration: none;
 }
 
@@ -294,11 +290,6 @@ h8
     font-size: 1.25em;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
-}
-
-h9
-{
-    font-family: 'Open Sans', sans-serif;
 }
 
 /******************************************************** 
