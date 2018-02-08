@@ -292,6 +292,15 @@ h8
     font-weight: bold;
 }
 
+h9
+{
+    font-size: 1em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 2px;
+}
+
 /******************************************************** 
 resume page
 ********************************************************/
