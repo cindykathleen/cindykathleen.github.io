@@ -158,9 +158,9 @@
                 </div>
 -->
                 <p>
-                    <a class="btn btn-primary" data-toggle="collapse" href="#collapse1" aria-expanded="false" aria-controls="collapse1">
+                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
                         1
-                    </a>
+                    </button>
                     <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
                         2
                     </button>
@@ -179,7 +179,18 @@
                     <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
                         7
                     </button>
+                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
+                        8
+                    </button>
                 </p>
+                
+                <!-- only one can be shown at a time-->
+                <script>
+                    jQuery('button').click( function(e) {
+                        jQuery('.collapse').collapse('hide');
+                    });
+                </script>
+                
                 <div class="collapse" id="collapse1">
                     <div class="card card-block">
                         <h9>JANUARY 15, 2018 | SAN MATEO</h9>
@@ -219,6 +230,12 @@
                 <div class="collapse" id="collapse7">
                     <div class="card card-block">
                         <h9>FEBRUARY 3, 2018 | SAN MATEO</h9>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="collapse" id="collapse8">
+                    <div class="card card-block">
+                        <h9>FEBRUARY 18, 2018 | LOS GATOS</h9>
                         <p></p>
                     </div>
                 </div>

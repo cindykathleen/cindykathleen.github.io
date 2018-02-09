@@ -285,6 +285,13 @@ color: #fdee31 && #fde331
     text-decoration: none;
 }
 
+/*
+.card-block
+{
+    border: none;
+}
+*/
+
 h8
 {
     font-size: 1.25em;
@@ -297,7 +304,7 @@ h9
     font-size: 1em;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
-    padding-top: 10px;
+    padding-top: 15px;
     padding-bottom: 2px;
 }
 
