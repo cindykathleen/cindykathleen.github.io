@@ -308,6 +308,20 @@ h9
     padding-bottom: 2px;
 }
 
+#referral a
+{
+    color: black;
+    font-weight: bold;
+        
+}
+
+#referral a:hover
+{
+    color: #fdee31;
+    font-weight: bold;
+    text-decoration: none;
+}
+
 /******************************************************** 
 resume page
 ********************************************************/
@@ -336,6 +350,7 @@ resume page
 #resumesection a:hover
 {
     color: #eea2a4;
+    font-weight: bold;
     text-decoration: none;
 }
 
