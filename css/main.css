@@ -127,6 +127,7 @@ passions page
     max-width: 100%;
     margin: 0 auto;
     padding: 0 1%;
+    text-align: center;
 }
 
 img
@@ -143,7 +144,7 @@ img
 
 #gallery li
 {
-    float: left;
+    display: inline-block;
     width: 24%;
     margin: .5%;
     
@@ -390,5 +391,5 @@ h7
 }
 
 /******************************************************** 
-relevant colors: #84a869 (green) & #eea2a4 (pink)
+relevant colors: #eea2a4 (pink) & ##B4B4B7 (gray)
 ********************************************************/
