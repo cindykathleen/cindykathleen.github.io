@@ -189,6 +189,21 @@ h3
     padding-top: 10px;
 }
 
+#travelGallery
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#travelGallery li
+{
+    float: left;
+    width: 24%;
+    margin: .5%;
+    
+}
+
 #twoGallery
 {
     margin: 0;
