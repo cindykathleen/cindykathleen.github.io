@@ -308,11 +308,17 @@ color: #fdee31 && #fde331
 }
 */
 
+#soulCycle
+{
+    text-align: center;
+}
+
 h8
 {
-    font-size: 1.25em;
-    font-family: 'Open Sans', sans-serif;
+    font-size: 3em;
+    font-family: 'Oxygen', sans-serif;
     font-weight: bold;
+    margin: 25px;
 }
 
 h9

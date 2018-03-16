@@ -41,13 +41,21 @@
                 </ul>
             </nav>
         </header> 
-        <div id="projectSectionWrapper">
-            <section>
-                <div id="socialMedia">
-                    <a href="https://github.com/cindykathleen" target="_blank"><img src="pictures/github.png" alt="GitHub" style="width:40px; height:40px;"></a>
-                </div>
-            </section>
-        </div>
+        <section>
+            <div id="wrapper">
+                <div id="projectSectionWrapper">
+                    <div class="section" data-anchor="spin">
+                        
+                    </div>
+                </div> 
+            </div>
+        
+            <script>
+                $(document).ready(function() {
+                    $('#wrapper').fullpage();
+                });
+            </script>
+        </section>
         <footer>
         </footer>
     </body>

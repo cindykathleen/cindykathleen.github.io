@@ -14,7 +14,13 @@
         
         <title>Cindy Kathleen Wang</title>
         
+        
         <link rel="stylesheet" href="css/main.css">
+        <script src="js/jquery-3.3.1.js"></script>
+        
+        <!-- fullpage.js -->
+        <script src="js/jquery.fullPage.js"></script>
+        <link rel="stylesheet" href="css/jquery.fullPage.css">
         <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300" rel="stylesheet">
@@ -39,6 +45,30 @@
                 </ul>
             </nav>
         </header> 
+        <section>
+            <div id="wrapper">
+                <div id="soulCycle">
+                    <div class="section" data-anchor="spin">
+                        <div class="slide">
+                            <h8>SOUL CYCLE</h8><br>
+                            <img src="pictures/soulcyclelogo.jpg" style="max-width: 150px" style="alight: top">
+                        </div>
+                        <div class="slide">
+                            <h8>LIFT EXERCISE STUDIO</h8><br>
+                            <img src="pictures/lift.jpg" style="max-width: 150px">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <script>
+                $(document).ready(function() {
+                    $('#wrapper').fullpage();
+                });
+            </script>
+        </section>
+       
+        <!--
         <section>
             <div id="quote">
                 <h3>"light up your soul"</h3>
@@ -77,7 +107,6 @@
                     </button>
                 </p>
                 
-                <!-- only one can be shown at a time-->
                 <script>
                     jQuery('button').click( function(e) {
                         jQuery('.collapse').collapse('hide');
@@ -132,19 +161,14 @@
                         <p></p>
                     </div>
                 </div>
-                
-<!--
-                <h8>WHY SOULCYCLE?</h8>
-                <p>To me, SoulCycle is more than just another workout class. It's the entire experience that they offer. It all starts on Monday at noon when you excitedly reserve your bike for the following week. Then the excitement continues to follow you all week until you open the door to one of their studios and get hit with the John Adler Grapefruit scented candle. Each studio is more aesthetically pleasing than the next with their clean, bright, and modern look.</p>
-                <p>Other than the positive vibes and awesome amenities that come with SoulCycle, the actual 45 minute class is a challenging and worthwhile experience. It is an "indoor cycling class that features high-intensity cardio, muscle-sculpting strength training, and rhythm-based choreography." The instructors motivate you to push through and test your limits.</p>
-                <p>I finally understood what it meant to be passionate about working out.</p>
--->
                 <div id="referral">
                     <h8>TRY SOMETHING NEW</h8>
                     <p>If you would like to give SoulCycle a try, feel free to use my <a href="https://www.soul-cycle.com/r/W4jwD7HZ/" target="_blank" >referral link</a>!</p>
                 </div>
             </div>
         </section>
+        -->
+        
         <footer>
         </footer>
     </body>
